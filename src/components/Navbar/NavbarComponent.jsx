@@ -1,8 +1,10 @@
+import style from "./Navbar.module.scss"
+
 export const NavbarComponent = () => {
     return (
         <>
             <nav>
-                <ul>
+                <ul className={style.listItem}>
                     <li>Item One</li>
                     <li>Item Two</li>
                     <li>Item Three</li>
