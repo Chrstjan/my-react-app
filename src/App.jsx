@@ -6,7 +6,7 @@ import { MainComponent } from './components/Main/MainComponent'
 function App() {
   return (
     <>
-      <HeaderComponent />
+      <HeaderComponent title="Dynamic Header" color="yellow"/>
       <MainComponent />
       <p>Møjn Verden</p>
       <FooterComponent />
