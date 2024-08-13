@@ -22,7 +22,7 @@ function App() {
       <MainComponent />
       <ButtonComponent action={firstAlert} size="small" theme="light" btnText="Tryk på mig!"/>
       <ButtonComponent action={secondAlert} size="medium" theme="dark" btnText="Nej, Tryk på mig!"/>
-      <ButtonComponent action={thirdAlert} size="large" theme="dark" btnText="Nej mig!"/>
+      <ButtonComponent action={thirdAlert} size="large" theme="light" btnText="Nej mig!"/>
       <p>Møjn Verden</p>
       <FooterComponent />
     </> 

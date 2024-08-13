@@ -6,6 +6,18 @@
     background: red;
 }
 
+//fun animation
+@keyframes headerTextAnimation {
+    0% {color: #07cfe2;}
+    10% {color: #6d9d83;}
+    30% {color: #720a50;}
+    60% {color: #da29bc;}
+    80% {color: #ef6dd9;}
+    90% {color: #a12d06;}
+    100% {color: #07cfe2;}
+}
+
 .headerText {
     color: blue;
+    animation: headerTextAnimation 3s infinite linear;
 }

@@ -16,4 +16,10 @@
 
 .dark {
     background: purple;
+    color: yellow;
+}
+
+button:hover {
+    scale: 1.1;
+    cursor: pointer;
 }
